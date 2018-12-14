@@ -8,14 +8,32 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UITableViewController {
+    var txtFldCurrent: UITextField?
     override func viewDidLoad() {
         super.viewDidLoad()
         print("sivakumar")
     }
 
+    @IBAction func btnAddCategoryTouchUpInside(_ sender: UIBarButtonItem) {
+        
+        let alertCtrl = UIAlertController(title: "Category", message: "Enter category name", preferredStyle: .alert);
+        
+        let alertAction1 = UIAlertAction(title: "Add", style: .default) { (action) in
+            print("Add button click action");
+            print(self.txtFldCurrent?.text ?? "NA")
+        }
+        alertCtrl.addAction(alertAction1);
+        alertCtrl.addTextField { (txtFld) in
+            txtFld.placeholder = "Enter category name"
+            self.txtFldCurrent = txtFld;
+        }
+        self.present(alertCtrl, animated: true, completion: nil)
+        
 
+        
+    }
+    
 
 }
 

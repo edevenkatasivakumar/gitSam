@@ -12,6 +12,7 @@
 		70AEB61221C38B44002D9490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AEB61021C38B44002D9490 /* Main.storyboard */; };
 		70AEB61421C38B44002D9490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70AEB61321C38B44002D9490 /* Assets.xcassets */; };
 		70AEB61721C38B44002D9490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AEB61521C38B44002D9490 /* LaunchScreen.storyboard */; };
+		70AEB62021C3A6BA002D9490 /* gitSam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70AEB61E21C3A6BA002D9490 /* gitSam.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		70AEB61321C38B44002D9490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70AEB61621C38B44002D9490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70AEB61821C38B44002D9490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70AEB61F21C3A6BA002D9490 /* gitSam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gitSam.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				70AEB61321C38B44002D9490 /* Assets.xcassets */,
 				70AEB61521C38B44002D9490 /* LaunchScreen.storyboard */,
 				70AEB61821C38B44002D9490 /* Info.plist */,
+				70AEB61E21C3A6BA002D9490 /* gitSam.xcdatamodeld */,
 			);
 			path = gitSam;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70AEB62021C3A6BA002D9490 /* gitSam.xcdatamodeld in Sources */,
 				70AEB60F21C38B44002D9490 /* ViewController.swift in Sources */,
 				70AEB60D21C38B44002D9490 /* AppDelegate.swift in Sources */,
 			);
@@ -320,6 +324,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		70AEB61E21C3A6BA002D9490 /* gitSam.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				70AEB61F21C3A6BA002D9490 /* gitSam.xcdatamodel */,
+			);
+			currentVersion = 70AEB61F21C3A6BA002D9490 /* gitSam.xcdatamodel */;
+			path = gitSam.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 70AEB60121C38B44002D9490 /* Project object */;
 }
